@@ -38,6 +38,9 @@ namespace Angular2Core
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
+			//ToDo: Learn about Hot Module Replacement
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
